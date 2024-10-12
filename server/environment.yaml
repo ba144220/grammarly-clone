@@ -1,0 +1,9 @@
+# environment.yaml
+name: llm-tutorial
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  # LLM
+  - pytorch
+  - transformers
